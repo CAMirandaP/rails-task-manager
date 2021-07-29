@@ -1,7 +1,20 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Style+Script&display=swap');
 
 body {
   background-color: rgb(248, 179, 239);
+  font-family: 'Gowun Batang', serif;
+}
+
+h1 {
+  font-family: 'Style Script', cursive;
+  font-size: 50px;
+}
+
+#text_field {
+  border-radius: 5%;
+  background-color: aqua;
 }
